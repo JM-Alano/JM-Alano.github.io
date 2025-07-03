@@ -1201,7 +1201,7 @@
       
       .btn {
         padding: 12px 25px;
-        font-size: 1rem;
+        font-size: 0.6rem;
         width: max-content;
       }
       
@@ -1215,5 +1215,9 @@
       }
       #hero {
         height: 130vh;
+      }
+      .project-image img{
+        width: 100%;
+        
       }
     }
