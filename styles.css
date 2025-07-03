@@ -106,7 +106,7 @@
       left: 0;
       width: 100%;
       z-index: 100;
-      padding: 30px 0;
+      padding: 10px 0;
       transition: all 0.3s ease;
       background-color: rgba(247, 255, 247, 0.98);
     }
@@ -1010,9 +1010,9 @@
     /* Responsive */
     @media (max-width: 992px) {
           .hero-image img{
-            max-width: 30%;
+            max-width: 40%;
             position: relative;
-            top: 130px;
+            top: 150px;
            right: -40%;
             margin: 0 auto;
         }
@@ -1063,9 +1063,9 @@
     
     @media (max-width: 768px) {
           .hero-image img{
-            max-width: 30%;
+            max-width: 40%;
             position: relative;
-            top: 160px;
+            top: 120px;
             right:  -30%;
             margin: 0 auto;
         }
@@ -1138,14 +1138,17 @@
         margin: 0 auto 30px;
         text-align: center;
       }
+       #hero {
+        height: 130vh;
+      }
     }
     
     @media (max-width: 576px) {
-          .hero-image img{
+            .hero-image img{
             max-width: 30%;
             position: relative;
-            top: 120px;
-            left: -100px;
+            top: 150px;
+           right: -30%;
             margin: 0 auto;
         }
       .hero-title {
@@ -1176,18 +1179,20 @@
       .service-card {
         padding: 30px 20px;
       }
+      
     }
     
     @media (max-width: 480px) {
-        .hero-image img{
-            max-width: 30%;
+         .hero-image img{
+            max-width: 50%;
             position: relative;
-            top: 120px;
-            left: -100px;
+            top: 100px;
+           right: -20%;
             margin: 0 auto;
         }
       .hero-title {
         font-size: 2.2rem;
+        
       }
       
       .hero-subtitle {
@@ -1197,9 +1202,18 @@
       .btn {
         padding: 12px 25px;
         font-size: 1rem;
+        width: max-content;
       }
       
       .contact-form {
         padding: 20px;
+        
+      }
+      .hero-contact-info span {
+      
+        font-size: 15px;
+      }
+      #hero {
+        height: 130vh;
       }
     }
