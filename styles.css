@@ -1,13 +1,12 @@
 :root {
-      --primary: #FF6B6B;
-      --secondary: #4ECDC4;
-      --dark: #292F36;
-      --light: #F7FFF7;
-      --accent: #FFE66D;
-      --text: #333;
-      --text-light: #666;
-    }
-    
+  --primary: #1E40AF;       /* Deep professional blue */
+  --secondary: #0D9488;     /* Sophisticated teal */
+  --dark: #111827;          /* Dark slate for text */
+  --light: #F3F4F6;         /* Soft light background */
+  --accent: #D97706;        /* Warm amber for highlights */
+  --text: #1F2937;          /* Dark gray (readable) */
+  --text-light: #6B7280;    /* Lighter gray */
+}
     * {
       margin: 0;
       padding: 0;
@@ -76,7 +75,7 @@
     .btn:hover {
       transform: translateY(-3px);
       box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
-      background-color: #ff5252;
+      background-color: var(--primary);
     }
     
     .btn-outline {
